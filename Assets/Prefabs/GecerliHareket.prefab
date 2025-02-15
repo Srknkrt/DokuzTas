@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 374675902607434784}
   m_Layer: 0
   m_Name: GecerliHareket
-  m_TagString: GecerliHareket
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

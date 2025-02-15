@@ -1,0 +1,12 @@
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\Unity.Timeline.Editor.dll
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\Unity.Timeline.Editor.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\Unity.Timeline.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEditor.UI.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEngine.UI.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEditor.TestRunner.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEngine.TestRunner.pdb
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.Timeline.Editor.csproj.AssemblyReference.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.Timeline.Editor.csproj.CoreCompileInputs.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.Ti.5D0259EF.Up2Date
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.Timeline.Editor.dll
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.Timeline.Editor.pdb

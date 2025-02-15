@@ -1,0 +1,9 @@
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\PhotonChat.dll
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\PhotonChat.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEditor.UI.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEngine.UI.pdb
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonChat.csproj.AssemblyReference.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonChat.csproj.CoreCompileInputs.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonChat.csproj.Up2Date
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonChat.dll
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonChat.pdb

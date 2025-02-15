@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Denemleler\\Unity\\DokuzTas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|d:\\denemleler\\unity\\dokuztas\\assets\\scripts\\ana menu\\ana menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ana menu\\ana menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|d:\\denemleler\\unity\\dokuztas\\assets\\scripts\\ana menu\\lobiolustur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ana menu\\lobiolustur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|D:\\Denemleler\\Unity\\DokuzTas\\assets\\scripts\\ana menu\\lobikatil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ana menu\\lobikatil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|D:\\Denemleler\\Unity\\DokuzTas\\assets\\scripts\\ana menu\\photonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ana menu\\photonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ana Menu.cs",
-              "DocumentMoniker": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Ana Menu\\Ana Menu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ana Menu\\Ana Menu.cs",
-              "ToolTip": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Ana Menu\\Ana Menu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ana Menu\\Ana Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "LobiKatil.cs",
+              "DocumentMoniker": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Ana Menu\\LobiKatil.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ana Menu\\LobiKatil.cs",
+              "ToolTip": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Ana Menu\\LobiKatil.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ana Menu\\LobiKatil.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T06:03:38.626Z",
+              "WhenOpened": "2025-02-15T13:57:01.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LobiOlustur.cs",
+              "DocumentMoniker": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Ana Menu\\LobiOlustur.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ana Menu\\LobiOlustur.cs",
+              "ToolTip": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Ana Menu\\LobiOlustur.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ana Menu\\LobiOlustur.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T13:52:05.915Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhotonManager.cs",
+              "DocumentMoniker": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Ana Menu\\PhotonManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ana Menu\\PhotonManager.cs",
+              "ToolTip": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Ana Menu\\PhotonManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ana Menu\\PhotonManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T13:19:01.482Z"
             }
           ]
         }

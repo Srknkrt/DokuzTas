@@ -1,0 +1,2 @@
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

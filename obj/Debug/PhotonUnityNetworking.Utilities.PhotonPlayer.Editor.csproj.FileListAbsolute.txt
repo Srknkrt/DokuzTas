@@ -1,0 +1,15 @@
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\PhotonRealtime.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\PhotonUnityNetworking.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\PhotonUnityNetworking.Utilities.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\PhotonUnityNetworking.Editor.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEditor.UI.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEngine.UI.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEditor.TestRunner.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEngine.TestRunner.pdb
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj.AssemblyReference.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj.CoreCompileInputs.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonUn.B7293062.Up2Date
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.pdb

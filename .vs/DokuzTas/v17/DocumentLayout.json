@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Denemleler\\Unity\\DokuzTas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B08180F-509A-8062-CDB7-9A814F14508A}|PhotonUnityNetworking.csproj|d:\\denemleler\\unity\\dokuztas\\assets\\photon\\photonunitynetworking\\code\\photonnetworkpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B08180F-509A-8062-CDB7-9A814F14508A}|PhotonUnityNetworking.csproj|solutionrelative:assets\\photon\\photonunitynetworking\\code\\photonnetworkpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|d:\\denemleler\\unity\\dokuztas\\assets\\scripts\\oyun\\surukleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\oyun\\surukleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|d:\\denemleler\\unity\\dokuztas\\assets\\scripts\\ana menu\\ana menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ana menu\\ana menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|d:\\denemleler\\unity\\dokuztas\\assets\\scripts\\oyun\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86CD03B8-FCDB-7612-9867-42ED87C73CE4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\oyun\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PhotonNetworkPart.cs",
-              "DocumentMoniker": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
-              "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
-              "ToolTip": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
-              "RelativeToolTip": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
-              "ViewState": "AgIAANkJAAAAAAAAAAAvwPEJAADcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Oyun\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Oyun\\GameManager.cs",
+              "ToolTip": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Oyun\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Oyun\\GameManager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T06:16:09.217Z",
+              "WhenOpened": "2025-02-15T14:43:49.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ana Menu.cs",
-              "DocumentMoniker": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Ana Menu\\Ana Menu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ana Menu\\Ana Menu.cs",
-              "ToolTip": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Ana Menu\\Ana Menu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ana Menu\\Ana Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Surukleme.cs",
+              "DocumentMoniker": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Oyun\\Surukleme.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Oyun\\Surukleme.cs",
+              "ToolTip": "D:\\Denemleler\\Unity\\DokuzTas\\Assets\\Scripts\\Oyun\\Surukleme.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Oyun\\Surukleme.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwJAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T06:03:38.626Z",
+              "WhenOpened": "2025-02-15T14:43:49.722Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,9 @@
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\Unity.TextMeshPro.dll
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\Unity.TextMeshPro.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEditor.UI.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEngine.UI.pdb
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.TextMeshPro.csproj.AssemblyReference.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.TextMeshPro.csproj.CoreCompileInputs.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.Te.CCFCADDC.Up2Date
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.TextMeshPro.dll
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.TextMeshPro.pdb

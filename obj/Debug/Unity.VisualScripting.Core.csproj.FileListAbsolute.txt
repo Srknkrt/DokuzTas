@@ -1,0 +1,9 @@
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\Unity.VisualScripting.Core.dll
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\Unity.VisualScripting.Core.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEditor.UI.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEngine.UI.pdb
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.VisualScripting.Core.csproj.AssemblyReference.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.VisualScripting.Core.csproj.CoreCompileInputs.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.Vi.60445D60.Up2Date
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.VisualScripting.Core.dll
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.VisualScripting.Core.pdb

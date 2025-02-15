@@ -1,0 +1,10 @@
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\PhotonUnityNetworking.dll
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\PhotonUnityNetworking.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\PhotonRealtime.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEditor.UI.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEngine.UI.pdb
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonUnityNetworking.csproj.AssemblyReference.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonUnityNetworking.csproj.CoreCompileInputs.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonUn.65F04B9E.Up2Date
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonUnityNetworking.dll
+D:\Denemleler\Unity\DokuzTas\obj\Debug\PhotonUnityNetworking.pdb

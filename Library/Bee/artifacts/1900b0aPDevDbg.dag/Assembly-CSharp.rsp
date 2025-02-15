@@ -336,7 +336,7 @@
 "Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/Ana Menu/Ana Menu.cs"
-"Assets/Scripts/Ana Menu/LobiManager.cs"
+"Assets/Scripts/Ana Menu/LobiKur.cs"
 "Assets/Scripts/Ana Menu/PhotonManager.cs"
 "Assets/Scripts/Oyun/GameManager.cs"
 "Assets/Scripts/Oyun/Surukleme.cs"

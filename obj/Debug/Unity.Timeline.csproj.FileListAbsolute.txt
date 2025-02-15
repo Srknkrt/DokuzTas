@@ -1,0 +1,9 @@
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\Unity.Timeline.dll
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\Unity.Timeline.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEditor.UI.pdb
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEngine.UI.pdb
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.Timeline.csproj.AssemblyReference.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.Timeline.csproj.CoreCompileInputs.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.Ti.0A14E847.Up2Date
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.Timeline.dll
+D:\Denemleler\Unity\DokuzTas\obj\Debug\Unity.Timeline.pdb

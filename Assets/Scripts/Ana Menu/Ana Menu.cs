@@ -12,11 +12,14 @@ public class AnaMenu : MonoBehaviour
         panel.SetActive(false);
     }
 
+    //Oyunu Baþlat butonuna basýldýðýnda çalýþýr.
     public void OyunuBaslat()
     {
         SceneManager.LoadScene("Oyun");
         PlayerPrefs.SetString("Tur", "Tekli");
     }
+
+    //Çok Oyunculu butonuna basýldýðýnda çalýþýr.
     public void CokOyunculu()
     {
         if(panel.activeSelf)

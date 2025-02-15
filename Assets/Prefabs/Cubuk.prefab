@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4708731460231911028}
   m_Layer: 0
   m_Name: Cubuk
-  m_TagString: YanCizgi
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

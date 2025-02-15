@@ -3,7 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AnaMenu
     - GameManager
-    - LobiManager
+    - LobiKatil
+    - LobiOlustur
     - PhotonManager
     - Surukleme
     PhotonUnityNetworking:
@@ -73,11 +74,14 @@ ScriptsOnlyBuild:
     fullTypeName: AnaMenu
     methodName: CokOyunculu
   - assembly: Assembly-CSharp
-    fullTypeName: LobiManager
-    methodName: LobiKurKatil
+    fullTypeName: LobiOlustur
+    methodName: OdaOlustur
   - assembly: Assembly-CSharp
     fullTypeName: AnaMenu
     methodName: OyunuBaslat
+  - assembly: Assembly-CSharp
+    fullTypeName: LobiKatil
+    methodName: OdayaKatil
   sceneClasses:
     Assets/Scenes/Ana Menu.unity:
     - Class: 1
@@ -161,8 +165,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6324}
     - Class: 114
-      Script: {instanceID: 6500}
-    - Class: 114
       Script: {instanceID: 6920}
     - Class: 114
       Script: {instanceID: 7434}
@@ -172,6 +174,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7910}
     - Class: 114
       Script: {instanceID: 8208}
+    - Class: 114
+      Script: {instanceID: 40906}
+    - Class: 114
+      Script: {instanceID: 40912}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1498,12 +1504,6 @@ ScriptsOnlyBuild:
     className: IsConnectedAndReadyProperty
   - hash:
       serializedVersion: 2
-      Hash: f3b21566a58f1402d8bdbf9b2d8266bd
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: LobiManager
-  - hash:
-      serializedVersion: 2
       Hash: 8bbce9932f67ad8e7f4eefec87800f94
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -2000,8 +2000,20 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a29ecc1b3667f87f0938b82bbfad9735
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LobiOlustur
+  - hash:
+      serializedVersion: 2
+      Hash: c5a92158dcd3f8daba266ccf54577906
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LobiKatil
   platform: 19
   scenePathNames:
   - Assets/Scenes/Ana Menu.unity
   - Assets/Scenes/Oyun.unity
-  playerPath: C:/Users/sekov/Desktop/DokuzTas/DokuzTas.exe
+  playerPath: D:/Denemleler/Unity/DokuzTas/DokuzTasExe/DokuzTas.exe

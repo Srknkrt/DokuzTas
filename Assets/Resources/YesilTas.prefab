@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -7411066525015699547}
   m_Layer: 0
   m_Name: YesilTas
-  m_TagString: FirstPlayer
+  m_TagString: BirinciOyuncu
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

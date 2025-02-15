@@ -7,67 +7,68 @@ using Photon.Pun;
 
 public class Surukleme : MonoBehaviourPunCallbacks
 {
-    GameObject selectedObject;
-    GameObject oldPos;
+    GameObject seciliNesne;
+    GameObject eskiPoz;
 
-    float snapDistance = 1.5f;
+    float bagUzaklik = 1.5f;
 
-    List<GameObject> slotsPos = new List<GameObject>();
+    List<GameObject> yuvaPozlari = new List<GameObject>();
 
     void Start()
     {
-        oldPos = new GameObject("OldPos");
-        SlotsScan();
-        
+        eskiPoz = new GameObject("EskiPoz");
+        YuvaPozBul();
     }
     
-    void SlotsScan()
+    //Yuvalarýn pozisyonlarýný listeye ekler.
+    void YuvaPozBul()
     {
-        slotsPos.AddRange(GameObject.FindGameObjectsWithTag("Slot"));
+        yuvaPozlari.AddRange(GameObject.FindGameObjectsWithTag("Yuva"));
     }
 
+    //Oyunun mekaniklerinin çalýþtýrýldýðý kýsým.
     void Update()
     {
         try
         {
             if (Input.GetMouseButtonDown(0))
-                MouseClicked();
+                MouseIlkTik();
             if (Input.GetMouseButton(0))
-                MouseHolded();
+                MouseBasiliTut();
             if (Input.GetMouseButtonUp(0))
-                MouseRelease();
+                MouseTikBirak();
         }
         catch (Exception) { }
     }
-    void MouseClicked()
+
+    //Mouse ile ilk týklandýðý zaman çalýþan fonksiyon. Seçili nesneye atama yapar
+    void MouseIlkTik()
     {
         RaycastHit hit = CastRay();
 
-        if (selectedObject == null)
+        if (seciliNesne == null)
         {
-            
             if (hit.collider != null)
             {
-                if(PlayerPrefs.GetString("Tur") == "Coklu")
+                //Çok oyunculu modda herkesin kendi taþýnýn hareket ettirilmesi saðlanýr.
+                if (PlayerPrefs.GetString("Tur") == "Coklu")
                 {
-                    if (hit.collider.CompareTag("FirstPlayer") && PhotonNetwork.IsMasterClient
-                    || hit.collider.CompareTag("SecondPlayer") && !PhotonNetwork.IsMasterClient)
-                    //if (hit.collider.CompareTag("FirstPlayer") || hit.collider.CompareTag("SecondPlayer"))
+                    if ((hit.collider.CompareTag("BirinciOyuncu") && PhotonNetwork.IsMasterClient) || (hit.collider.CompareTag("IkinciOyuncu") && !PhotonNetwork.IsMasterClient))
+                    //if(photonView.IsMine && (hit.collider.CompareTag("BirinciOyuncu") || hit.collider.CompareTag("IkinciOyuncu")))
                     {
-
-                        selectedObject = hit.collider.gameObject;
-                        oldPos.transform.position = selectedObject.transform.position;
+                        seciliNesne = hit.collider.gameObject;
+                        eskiPoz.transform.position = seciliNesne.transform.position;
 
                         Cursor.visible = false;
                     }
                 }
+                //Tek oyunculu modda taþýn hareket ettirilmesi saðlanýr.
                 else
                 {
-                    if (hit.collider.CompareTag("FirstPlayer") || hit.collider.CompareTag("SecondPlayer"))
+                    if (hit.collider.CompareTag("BirinciOyuncu") || hit.collider.CompareTag("IkinciOyuncu"))
                     {
-
-                        selectedObject = hit.collider.gameObject;
-                        oldPos.transform.position = selectedObject.transform.position;
+                        seciliNesne = hit.collider.gameObject;
+                        eskiPoz.transform.position = seciliNesne.transform.position;
 
                         Cursor.visible = false;
                     }
@@ -76,6 +77,7 @@ public class Surukleme : MonoBehaviourPunCallbacks
         }
     }
 
+    //Mousenin konumundan hangi nesneye týklandýðýný bulur.
     RaycastHit CastRay()
     {
         Vector3 screenMousePosFar = new Vector3(Input.mousePosition.x,
@@ -91,67 +93,65 @@ public class Surukleme : MonoBehaviourPunCallbacks
         //Debug.DrawRay(worldMousePosNear, worldMousePosFar - worldMousePosNear, Color.red);
         return hit;
     }
-    void MouseHolded()
+
+    //Seçili nesnenin hareket ettirilmesi saðlanýr.
+    void MouseBasiliTut()
     {
         Vector3 worldPosition;
 
-        if (selectedObject != null)
+        if (seciliNesne != null)
         {
-            worldPosition = FindPosition();
+            worldPosition = PozBul();
             
-            selectedObject.transform.position = new Vector3(worldPosition.x, 0.5f, worldPosition.z);
-
+            seciliNesne.transform.position = new Vector3(worldPosition.x, 0.5f, worldPosition.z);
         }
     }
-    Vector3 FindPosition()
+    Vector3 PozBul()
     {
         Vector3 position = new Vector3(Input.mousePosition.x, 
                                        Input.mousePosition.y, 
-                                       Camera.main.WorldToScreenPoint(selectedObject.transform.position).z);
+                                       Camera.main.WorldToScreenPoint(seciliNesne.transform.position).z);
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(position);
         return worldPosition;
     }
 
-    void MouseRelease()
+    //Seçili nesnenin uygun bir yere býrakýlmasýný saðlar.
+    void MouseTikBirak()
     {
-        if (selectedObject != null)
+        if (seciliNesne != null)
         {
-            CalculateDistance();
-            selectedObject = null;
+            MesafeHesapla();
+            seciliNesne = null;
             Cursor.visible = true;
         }
     }
 
-    void CalculateDistance()
+    //Seçili nesnenin yuvalara olan uzaklýðýný hesaplar. Eðer yakýnda yuva yoksa eski konumuna geri gönderir.
+    void MesafeHesapla()
     {
-        float distance;
-        bool isTruePos = false;
-        bool isEmpty = true;
-        GameObject obj = null;
+        float mesafe;
+        bool dogruPozMu = false;
+        bool bosMu = true;
+        GameObject nesne = null;
 
-        foreach (GameObject slot in slotsPos)
+        foreach (GameObject yuva in yuvaPozlari)
         {
-            distance = Vector3.Distance(selectedObject.transform.position, slot.transform.position);
+            mesafe = Vector3.Distance(seciliNesne.transform.position, yuva.transform.position);
 
-            if(distance <= snapDistance)
+            if(mesafe <= bagUzaklik)
             {
-                obj = slot;
-
-                isTruePos = true;
-            
+                nesne = yuva;
+                dogruPozMu = true;
             }
         }
 
-        if (isTruePos && isEmpty && obj != null)
+        if (dogruPozMu && bosMu && nesne != null)
         {
-            selectedObject.transform.position = obj.transform.position;
+            seciliNesne.transform.position = nesne.transform.position;
         }
         else
         {
-            selectedObject.transform.position = oldPos.transform.position;
+            seciliNesne.transform.position = eskiPoz.transform.position;
         }
-
     }
-
-
 }

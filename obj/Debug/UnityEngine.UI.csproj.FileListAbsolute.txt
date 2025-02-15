@@ -1,0 +1,6 @@
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Denemleler\Unity\DokuzTas\Temp\bin\Debug\UnityEngine.UI.pdb
+D:\Denemleler\Unity\DokuzTas\obj\Debug\UnityEngine.UI.csproj.AssemblyReference.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\UnityEngine.UI.csproj.CoreCompileInputs.cache
+D:\Denemleler\Unity\DokuzTas\obj\Debug\UnityEngine.UI.dll
+D:\Denemleler\Unity\DokuzTas\obj\Debug\UnityEngine.UI.pdb

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6127441846337493886}
   m_Layer: 0
   m_Name: SariTas
-  m_TagString: SecondPlayer
+  m_TagString: IkinciOyuncu
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
